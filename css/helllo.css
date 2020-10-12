@@ -1,0 +1,35 @@
+.hi{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  margin-left:10%;
+  margin-right:10%;
+  background-color:white;
+  justify-content: space-between;
+}
+.announce{
+  background-color: #fd5f00;
+  width:500px;
+  color:white;
+  text-align: center;
+  list-style: none;
+  border-radius: 6px;
+ padding:10px 40px;
+ overflow: auto;
+ height: 500px;
+ padding-bottom: 10px;
+ margin-bottom:20px;
+}
+.eventsup,.boxed-btn3-white{
+  color:white;
+  background-color:#0d1128;
+  padding:10px 40px;
+  border-radius: 6px;
+  overflow: auto;
+  margin-bottom:20px;
+}
+.boxed-btn3-white:hover{
+  font-size:17px;
+  color:white;
+}
